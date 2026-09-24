@@ -1,0 +1,10 @@
+{
+  "name": "Invoice Generator",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/postgresql": {}
+  },
+  "postCreateCommand": "sudo service postgresql start",
+  "postStartCommand": "sudo service postgresql start",
+  "forwardPorts": [5432]
+}
